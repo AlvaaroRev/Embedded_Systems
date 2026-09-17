@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//cambio1
 
 int suma(int d1, int d2){
 	return d1+d2;
@@ -15,7 +16,7 @@ int suma(int d1, int d2){
 
 #include <cstdlib>
 #include <iostream>
-
+/*
 int main(int narg, char *arg[]){
 	int d1=50;
 	int d2=100;
@@ -28,3 +29,4 @@ int main(int narg, char *arg[]){
 	std::cout << "suma "<< d1 << " y " << d2 << " = " << suma(d1,d2) << std::endl;
 	return 0;
 }
+*/
