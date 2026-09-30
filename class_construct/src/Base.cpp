@@ -8,6 +8,13 @@
 #include "Base.h"
 #include <iostream>
 
+int Base::comun = 8;
+
+int Base::global(){
+	comun++;
+	return comun;
+}
+
 Base::Base() {
 	std::cout<<"Constructor Base::Base()"<<std::endl;
 	a=0;

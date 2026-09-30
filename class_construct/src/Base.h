@@ -16,6 +16,8 @@ protected:
 	int a,b;
 
 public:
+	static int comun;
+	int global();
 	void get(int &va, int &vb);
 	virtual int suma(); //Al añadir el virtual el metodo se vuelve medio puntero, en vez de hardcode.
 	Base();

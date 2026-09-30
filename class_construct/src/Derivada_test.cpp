@@ -34,5 +34,8 @@ TEST(Derivada, poly){
 			 //Si el método suma no tiene virtual coge el de base en vez del derivada (d2 que apunta)
 	ASSERT_EQ(p->suma(),107);
 
+	ASSERT_EQ(p->global(),9);
+	ASSERT_EQ(d1.global(),10);
+	ASSERT_EQ(d2.global(),11);
 
 }
