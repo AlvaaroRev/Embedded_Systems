@@ -20,3 +20,6 @@ Derivada::~Derivada() {
 	std::cout<<"Destructor Derivada::Derivada()"<<std::endl;
 }
 
+int Derivada::suma(){
+	return a+b+100;
+}

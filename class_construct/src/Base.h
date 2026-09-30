@@ -17,6 +17,7 @@ protected:
 
 public:
 	void get(int &va, int &vb);
+	virtual int suma(); //Al añadir el virtual el metodo se vuelve medio puntero, en vez de hardcode.
 	Base();
 	~Base();
 	Base(int va){ //Inline, reemplazo inline, sustituir la llamada por el codigo

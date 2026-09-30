@@ -19,6 +19,10 @@ void Base::get(int &va, int &vb){
 	vb=b;
 }
 
+int Base::suma(){
+	return a+b;
+}
+
 Base::~Base() {
 	std::cout<<"Destructor Base::Base()"<<std::endl;
 }

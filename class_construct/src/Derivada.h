@@ -15,6 +15,8 @@ public:
 	using Base::Base;
 	Derivada(int a, int b);
 	~Derivada();
+	int suma();
+
 };
 
 #endif /* DERIVADA_H_ */
